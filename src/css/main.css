@@ -1,0 +1,35 @@
+/* General */
+
+#content-grid {
+  margin-top: 42px;
+  padding: 10px;
+}
+
+.ui[class*="vertically divided"].grid>.row:before {
+ box-shadow: none !important;
+}
+
+.ui[class*="vertically divided"].grid>.column:not(.row), .ui[class*="vertically divided"].grid>.row>.column {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.ui.grid>.row{
+  padding-top: 10px;
+}
+
+/* Navigation */
+
+.mainuser-feed {
+  padding-right: 10px;
+}
+
+.white-text {
+  color: white !important;
+}
+
+/* Filter */
+
+#filter-container {
+  padding-bottom: 20px;
+}

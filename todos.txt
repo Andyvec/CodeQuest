@@ -1,0 +1,2 @@
+[ ] - Migrar webpack a wepack 2
+[ ] - Preparar precompilador de CSS

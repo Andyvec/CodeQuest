@@ -1,0 +1,18 @@
+Suggested code environment:
+
+Code editor:
+  - Visual Studio Code
+    * Indent using 2 spaces
+    * Pluggins: Dark++ Theme; Project Manager; SpellChecker
+
+How to run the environment:
+  - Have nodejs y git installed
+  - Go to the project path
+  - git clone https://www.github.com/andyvec/codequest
+  - npm install
+  - npm run dev
+  - Go to http://localhost:8080/webpack-dev-server/index.html
+
+Configuration files:
+  - package.json -> npm dependencies and configuration
+  - webpack.config.js -> transpilling and babel configuration

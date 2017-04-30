@@ -1,0 +1,20 @@
+1 Authentication
+
+    1.1 User creation
+    Name: createUser
+    URL: /api/rest/user
+    Method: POST
+    Params:
+        - nickname
+        - password
+        - email
+
+    1.2 Get token
+    Name: getToken
+    URL: /api/rest/token
+    Method: GET
+    Params:
+        - nickname
+        - password
+
+2 Project
