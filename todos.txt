@@ -1,2 +1,4 @@
 [ ] - Migrar webpack a wepack 2
 [ ] - Preparar precompilador de CSS
+[ ] - Implementar filtros para TODOS
+[ ] - Arreglar bug que surge al tildar los TODOs con el acordeón 
