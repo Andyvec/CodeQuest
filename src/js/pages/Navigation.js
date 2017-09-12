@@ -19,11 +19,15 @@ export default class Navigation extends Component {
           active={activeItem === 'Spawn'}
           onClick={this.handleItemClick} />
 
-        <Menu.Item name='Tabern'
+        <Menu.Item name='Aventuras'
           active={activeItem === 'messages'}
           onClick={this.handleItemClick} />
 
-        <Menu.Item name='PJ Customization'
+        <Menu.Item name='Shop'
+          active={activeItem === 'messages'}
+          onClick={this.handleItemClick} />
+
+        <Menu.Item name='Configuración'
           active={activeItem === 'messages'}
           onClick={this.handleItemClick} />
           

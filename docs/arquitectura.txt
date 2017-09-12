@@ -3,7 +3,7 @@ La idea es separar el proyecto en 3 capas. Con independencia entre el backend y 
 1 Arquitectura General
 
 1.1 - Fontend
-    1.1.1 Lógica de UI en ReactJs (Usado con ES5 y JSX) y MobX
+    1.1.1 Lógica de UI en ReactJs (Usado con ES6 y JSX) y MobX
     1.1.2 SemanticUI como framework de interfaz gráfica (Integrado con React)
     1.1.3 Lógica de negocio y datos enteramente en el cliente
     1.1.4 Debe estar desacoplado del backend, conectándose mediante APIs Restfull puras

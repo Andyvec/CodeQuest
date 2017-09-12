@@ -6,7 +6,7 @@ export default class Footer extends React.Component {
     return (
       <footer>
         © 2017 CodeQuest Team<br/>
-        CodeQuest App version 0.0.0
+        CodeQuest App version 0.0.1
       </footer>
     );
   }

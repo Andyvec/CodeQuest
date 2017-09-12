@@ -1,6 +1,6 @@
 {
   "name": "codequest",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A project manager App with gamification and time management ideas",
   "main": "webpack.config.js",
   "dependencies": {

@@ -5,4 +5,3 @@
 
 ## Team
 * Andyvec (Andrés Vecchione)
-* ...
