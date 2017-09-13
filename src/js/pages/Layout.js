@@ -26,7 +26,7 @@ export default class Layout extends React.Component {
 
           <Grid.Row columns={1}>
             <Grid.Column>
-                <QuestList store={questStore} />
+                <PagesRouter/>
             </Grid.Column>
           </Grid.Row>
 

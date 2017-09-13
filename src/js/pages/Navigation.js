@@ -1,35 +1,24 @@
 import React, { Component }  from 'react'
 import { Menu, Button, Feed } from 'semantic-ui-react'
+import { Link } from 'react-router-dom'
 
 import MainUserFeed from './../components/MainUserFeed.js'
 
 export default class Navigation extends Component {
-  state = { activeItem: 'Spawn' }
-
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
   render() {
-    const { activeItem } = this.state
 
     return (
       <Menu size='small' fixed='top' stackable inverted>
         <Menu.Item header>CodeQuest</Menu.Item>
 
-        <Menu.Item name='Inicio'
-          active={activeItem === 'Spawn'}
-          onClick={this.handleItemClick} />
+        <Menu.Item name='Inicio' as={Link} to='/'/>
 
-        <Menu.Item name='Aventuras'
-          active={activeItem === 'messages'}
-          onClick={this.handleItemClick} />
+        <Menu.Item name='Aventuras' as={Link} to='/aventuras'/>
 
-        <Menu.Item name='Shop'
-          active={activeItem === 'messages'}
-          onClick={this.handleItemClick} />
+        <Menu.Item name='Shop' as={Link} to='/shop'/>
 
-        <Menu.Item name='Configuración'
-          active={activeItem === 'messages'}
-          onClick={this.handleItemClick} />
+        <Menu.Item name='Configuracion' as={Link} to='/configuracion'/>
           
         <Menu.Menu position='right'>
             <MainUserFeed />
