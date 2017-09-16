@@ -1,3 +1,0 @@
-1 Login
-1.1 Creación de cuenta
-1.2 Login a la App (Requiere 1.1)

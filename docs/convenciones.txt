@@ -1,5 +1,0 @@
-React:
-  - Componentes CamelCase empezando con mayúscula
-  - Las props de los componentes no deben cambiarse nunca (Las consideramos inmutables)
-  - Siempre que se cambie el state de un componente, hacerlo por un método generético, nunca directamente
-  - Nunca actualizar el estado directamente (this.state = ...) user setState con un callback siempre
