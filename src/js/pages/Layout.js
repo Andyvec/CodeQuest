@@ -1,12 +1,18 @@
 import React from 'react'
 import { Grid } from 'semantic-ui-react'
+import { Switch, Route } from 'react-router-dom'
 
-import Header from "./Header"
-import Messages from "./../components/Messages"
-import Footer from "./Footer"
-import QuestList from "./../components/QuestList"
+import HomePage from './HomePage'
+import ShopPage from './ShopPage'
+import QuestListPage from './QuestListPage'
+import ConfigurationPage from './ConfigurationPage'
+import NotFoundPage from './NotFoundPage'
 
-import questStore from './../stores/QuestStore'
+import Header from './../components/Header'
+import Messages from './../components/Messages'
+import Footer from './../components/Footer'
+
+import Conf from './../components/QuestList'
 
 export default class Layout extends React.Component {
 
@@ -26,7 +32,13 @@ export default class Layout extends React.Component {
 
           <Grid.Row columns={1}>
             <Grid.Column>
-                <PagesRouter/>
+              <Switch>
+                <Route exact path='/' component={HomePage}/>
+                <Route path='/quests' component={QuestListPage}/>
+                <Route path='/shop' component={ShopPage}/>
+                <Route path='/configuration' component={ConfigurationPage}/>
+                <Route component={NotFoundPage}/>
+              </Switch>
             </Grid.Column>
           </Grid.Row>
 

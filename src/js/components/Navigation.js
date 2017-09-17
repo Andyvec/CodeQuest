@@ -14,11 +14,11 @@ export default class Navigation extends Component {
 
         <Menu.Item name='Inicio' as={Link} to='/'/>
 
-        <Menu.Item name='Aventuras' as={Link} to='/aventuras'/>
+        <Menu.Item name='Aventuras' as={Link} to='/quests'/>
 
         <Menu.Item name='Shop' as={Link} to='/shop'/>
 
-        <Menu.Item name='Configuracion' as={Link} to='/configuracion'/>
+        <Menu.Item name='Configuracion' as={Link} to='/configuration'/>
           
         <Menu.Menu position='right'>
             <MainUserFeed />
